@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MenuAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 88802efb00c3e704685090f971699bc8, type: 3}
+    - {fileID: 2800000, guid: 77698706e61cf204a821f55b62b11dcd, type: 3}
+    - {fileID: 2800000, guid: ec084d619a8be154ab21cb560453e166, type: 3}
+    - {fileID: 2800000, guid: 7ebd68428e449fd498eb7d970179f24f, type: 3}
+    - {fileID: 2800000, guid: 61b63899e9990a541826533f8fa2912f, type: 3}
+    - {fileID: 2800000, guid: 9cfab48519eff8941be1b6a32fefb329, type: 3}
+    - {fileID: 2800000, guid: 68fded7e7e8f95348b9bf24f1090621b, type: 3}
+    - {fileID: 2800000, guid: 60b1ab289457acd448a4fcdac925b212, type: 3}
+    - {fileID: 2800000, guid: 0597f52f449a9744aba84408a5309078, type: 3}
+    - {fileID: 2800000, guid: 5cedce49c1b2eac4bb3e085b521beff4, type: 3}
+    - {fileID: 2800000, guid: 1c07117797fa1ff4bbde95f73a7925fb, type: 3}
+    - {fileID: 2800000, guid: 9a737833ed3aebb4c84ebcbf02da5aaf, type: 3}
+    - {fileID: 2800000, guid: dfe7cf8d729f73643a8c779e732cc0f7, type: 3}
+    - {fileID: 2800000, guid: aa65b1c1650e7a343ade88887dd7f006, type: 3}
+    - {fileID: 2800000, guid: 1994124474ed6b64aa8e8ae4ad296b70, type: 3}
+    - {fileID: 2800000, guid: bb76d63f8fa08a7499bba552e078aeed, type: 3}
+    - {fileID: 2800000, guid: 5198da1e08180e64aa2fdd69d3b7dc36, type: 3}
+    - {fileID: 2800000, guid: 4582072efed7ffa459a320f458b1e0ee, type: 3}
+    - {fileID: 2800000, guid: f565dbfeacf8b72458b004d3347bf054, type: 3}
+    - {fileID: 2800000, guid: c87c81409f9632e4db8b11720cef8c7f, type: 3}
+    - {fileID: 2800000, guid: d9aab11de79f648438ece87024a8e813, type: 3}
+    - {fileID: 2800000, guid: 7c5bc08ba0a5874449fb051550658099, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c87c81409f9632e4db8b11720cef8c7f: 21300000
+    - ec084d619a8be154ab21cb560453e166: 21300000
+    - aa65b1c1650e7a343ade88887dd7f006: 21300000
+    - 7ebd68428e449fd498eb7d970179f24f: 21300000
+    - 9a737833ed3aebb4c84ebcbf02da5aaf: 21300000
+    - 1994124474ed6b64aa8e8ae4ad296b70: 21300000
+    - 9cfab48519eff8941be1b6a32fefb329: 21300000
+    - 77698706e61cf204a821f55b62b11dcd: 21300000
+    - 1c07117797fa1ff4bbde95f73a7925fb: 21300000
+    - 60b1ab289457acd448a4fcdac925b212: 21300000
+    - 5cedce49c1b2eac4bb3e085b521beff4: 21300000
+    - 61b63899e9990a541826533f8fa2912f: 21300000
+    - 7c5bc08ba0a5874449fb051550658099: 21300000
+    - 88802efb00c3e704685090f971699bc8: 21300000
+    - d9aab11de79f648438ece87024a8e813: 21300000
+    - dfe7cf8d729f73643a8c779e732cc0f7: 21300000
+    - 5198da1e08180e64aa2fdd69d3b7dc36: 21300000
+    - 4582072efed7ffa459a320f458b1e0ee: 21300000
+    - 68fded7e7e8f95348b9bf24f1090621b: 21300000
+    - f565dbfeacf8b72458b004d3347bf054: 21300000
+    - 0597f52f449a9744aba84408a5309078: 21300000
+    - bb76d63f8fa08a7499bba552e078aeed: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c87c81409f9632e4db8b11720cef8c7f, type: 3}
+  - {fileID: 21300000, guid: ec084d619a8be154ab21cb560453e166, type: 3}
+  - {fileID: 21300000, guid: aa65b1c1650e7a343ade88887dd7f006, type: 3}
+  - {fileID: 21300000, guid: 7ebd68428e449fd498eb7d970179f24f, type: 3}
+  - {fileID: 21300000, guid: 9a737833ed3aebb4c84ebcbf02da5aaf, type: 3}
+  - {fileID: 21300000, guid: 1994124474ed6b64aa8e8ae4ad296b70, type: 3}
+  - {fileID: 21300000, guid: 9cfab48519eff8941be1b6a32fefb329, type: 3}
+  - {fileID: 21300000, guid: 77698706e61cf204a821f55b62b11dcd, type: 3}
+  - {fileID: 21300000, guid: 1c07117797fa1ff4bbde95f73a7925fb, type: 3}
+  - {fileID: 21300000, guid: 60b1ab289457acd448a4fcdac925b212, type: 3}
+  - {fileID: 21300000, guid: 5cedce49c1b2eac4bb3e085b521beff4, type: 3}
+  - {fileID: 21300000, guid: 61b63899e9990a541826533f8fa2912f, type: 3}
+  - {fileID: 21300000, guid: 7c5bc08ba0a5874449fb051550658099, type: 3}
+  - {fileID: 21300000, guid: 88802efb00c3e704685090f971699bc8, type: 3}
+  - {fileID: 21300000, guid: d9aab11de79f648438ece87024a8e813, type: 3}
+  - {fileID: 21300000, guid: dfe7cf8d729f73643a8c779e732cc0f7, type: 3}
+  - {fileID: 21300000, guid: 5198da1e08180e64aa2fdd69d3b7dc36, type: 3}
+  - {fileID: 21300000, guid: 4582072efed7ffa459a320f458b1e0ee, type: 3}
+  - {fileID: 21300000, guid: 68fded7e7e8f95348b9bf24f1090621b, type: 3}
+  - {fileID: 21300000, guid: f565dbfeacf8b72458b004d3347bf054, type: 3}
+  - {fileID: 21300000, guid: 0597f52f449a9744aba84408a5309078, type: 3}
+  - {fileID: 21300000, guid: bb76d63f8fa08a7499bba552e078aeed, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+  - Frame 1597880666
+  - Group 50
+  - Frame 1597880667
+  - Frame 1597880677
+  - Group 51
+  - Frame 1597880669
+  - Frame 49
+  - Frame 1597880674
+  - Frame 1597880671
+  - Frame 1597880673
+  - Frame 1597880668
+  - "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435_2024-10-11_091519391-Photoroom
+    1"
+  - eva_checkmark-fill
+  - "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435_2024-10-11_084703085-Photoroom"
+  - Group 49
+  - snapedit_1728624739406 1@2x
+  - Vector 16
+  - Frame 1597880670
+  - "\u0413\u043B\u0430\u0432\u043D\u044B\u0439 \u044D\u043A\u0440\u0430\u043D"
+  - Frame 1597880672
+  - Rectangle 12
+  m_RenderDataMap: {}
+  m_Tag: MenuAtlas
+  m_IsVariant: 0
