@@ -34,7 +34,7 @@ namespace UserInterface
         
         [SerializeField] private Image _bgOverImage;
         [SerializeField] private List<Sprite> _gameOverSprites;
-        
+
         public void Init()
         {
             ResetPopups();

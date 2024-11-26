@@ -11,7 +11,7 @@ namespace Services
         [Serializable]
         public class AudioCueClipOption
         {
-            [SerializeField] private AudioClip clip;
+            public AudioClip clip;
             [SerializeField] [Range(0f, 1f)] private float volume = 1f;
             public AudioClip Clip => clip;    
             public float Volume => volume;

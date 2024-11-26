@@ -19,10 +19,25 @@ namespace GameCore
         [SerializeField] private List<Sprite> _1ChapterSprites;
         [SerializeField] private List<Sprite> _2ChapterSprites;
         [SerializeField] private List<Sprite> _charactersImages;
+        [SerializeField] private AudioCueScriptableObject _voice;
+        [SerializeField] private List<AudioClip> _clips;
+        [SerializeField] private List<AudioClip> _clips2Chapter;
         
         public int CurrentSceneIndex;
         public int CurrentChapterIndex = 0;
         private bool _isTextAnimating;
+
+        private void SetClip()
+        {
+            if (CurrentChapterIndex == 0 && CurrentSceneIndex < _clips.Count)
+            {
+                _voice.Options.clip = _clips[CurrentSceneIndex];
+            }
+            else if (CurrentChapterIndex == 1 && CurrentSceneIndex < _clips2Chapter.Count)
+            {
+                _voice.Options.clip = _clips2Chapter[CurrentSceneIndex];
+            }
+        }
         
         public void Init()
         {
@@ -149,6 +164,7 @@ namespace GameCore
         private void ShowCurrentScene()
         {
             HideAllUIElements();
+            SetClip();
             switch (CurrentChapterIndex)
             {
                 case 0: 
@@ -162,6 +178,11 @@ namespace GameCore
         
         private void ShowChapter1Scenes()
         {
+            if (CurrentSceneIndex <= 21)
+            {
+                GameInstance.Audio.Play(_voice);
+            }
+            
             switch (CurrentSceneIndex)
             {
                 case 0:
@@ -175,7 +196,7 @@ namespace GameCore
                 case 2:
                     StartCoroutine(ShowPanelWithText(0, "He is a talented poker player with a difficult fate. After winning a regional tournament, his career is abruptly cut short by suspicions of fraud. Having lost his reputation, Victor is forced to go into hiding and play only in underground arenas. "));
                     StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 3:
                     StartCoroutine(ShowPanelWithText(0, "One gloomy day Victor received an anonymous letter saying that a closed tournament was being held, and of course it was clear what kind of tournament it was"));
@@ -187,7 +208,7 @@ namespace GameCore
                     break;
                 case 5:
                     StartCoroutine(ShowPanelWithText(0, "Victor decided that he needed to participate in this tournament. But he had doubts, so he called his brother Sam and asked him to come to discuss important issues"));
-                    ChangeBackground(_1ChapterSprites[3]);
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 6:
                     StartCoroutine(ShowPanelWithText(1, "Thank you for coming so quickly Sam"));
@@ -231,7 +252,7 @@ namespace GameCore
                     break;
                 case 14:
                     StartCoroutine(ShowPanelWithText(0, "Sam was able to arrange for Sheryl and Victor to meet at a bar that hardly anyone goes to."));
-                    ChangeBackground(_1ChapterSprites[3]);
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 15:
                     StartCoroutine(ShowPanelWithText(1, "Sheryl, I'm so glad you could make it. Meet Victor, my brother."));
@@ -272,7 +293,7 @@ namespace GameCore
                     GameInstance.UINavigation.OpenGameOverPopup();
                     break;
                 default:
-                    StartCoroutine(ShowPanelWithText(0, "Конец первой главы!"));
+                    StartCoroutine(ShowPanelWithText(0, "kinec"));
                     break;
             }
         }
