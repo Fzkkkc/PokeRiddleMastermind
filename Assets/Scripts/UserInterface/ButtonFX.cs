@@ -30,7 +30,7 @@ namespace UserInterface
             _fxButton.onClick.RemoveListener(PlayButtonFX);
         }
 
-        private void PlayButtonFX()
+        public void PlayButtonFX()
         {
             if(_isAnimating) return;
             _isAnimating = true;

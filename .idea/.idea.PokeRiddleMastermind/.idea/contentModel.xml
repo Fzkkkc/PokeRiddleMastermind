@@ -57,8 +57,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameCore" t="Include">
-            <e p="IngredientsCounter.cs" t="Include" />
             <e p="NovelController.cs" t="Include" />
+            <e p="SpriteScroller.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
             <e p="AudioCueScriptableObject.cs" t="Include" />
@@ -74,7 +74,6 @@
           <e p="UserInterface" t="Include">
             <e p="ButtonFX.cs" t="Include" />
             <e p="LoadingAnimation.cs" t="Include" />
-            <e p="MapRoadNavigation.cs" t="Include" />
             <e p="UINavigation.cs" t="Include" />
             <e p="UITextMoney.cs" t="Include" />
           </e>

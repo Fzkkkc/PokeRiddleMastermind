@@ -11,6 +11,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/GameInstance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/MapRoadNavigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/ButtonFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
       </list>
     </option>
@@ -55,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732608563370</updated>
-      <workItem from="1732608568542" duration="1181000" />
+      <workItem from="1732608568542" duration="4242000" />
     </task>
     <servers />
   </component>

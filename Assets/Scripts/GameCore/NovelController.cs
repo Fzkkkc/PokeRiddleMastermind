@@ -165,208 +165,111 @@ namespace GameCore
             switch (CurrentSceneIndex)
             {
                 case 0:
-                    StartCoroutine(ShowPanelWithText(0, "The Wonders of the World Circus was moving towards the next city, leaving behind a cloud of dust and the noise of cheerful melodies."));
+                    StartCoroutine(ShowPanelWithText(0, "This story is set in the dark city of “LasPegas”. This city is not famous for its honest inhabitants, for all have been swallowed up by one disease, playing cards"));
                     ChangeBackground(_1ChapterSprites[0]);
                     break;
                 case 1:
-                    StartCoroutine(ShowPanelWithText(0, "There was a girl named Aliya sitting in one of the carriages. Her bright carnival costume with sequins and feathers looked ridiculous against the background of the dusty road, but she was confident in her beauty."));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    StartCoroutine(ShowPanelWithText(0, "But our story is not about the city itself, which is rotten from the inside. It's about the great gambler Victor."));
+                    ChangeBackground(_1ChapterSprites[0]);
                     break;
                 case 2:
-                    StartCoroutine(ShowPanelWithText(1, "“I'm so tired of the road… Are we coming to town soon? I want to perform already!”", "Aliya"));
+                    StartCoroutine(ShowPanelWithText(0, "He is a talented poker player with a difficult fate. After winning a regional tournament, his career is abruptly cut short by suspicions of fraud. Having lost his reputation, Victor is forced to go into hiding and play only in underground arenas. "));
+                    StartCoroutine(AnimateCharacter(0));
                     ChangeBackground(_1ChapterSprites[1]);
                     break;
                 case 3:
-                    StartCoroutine(ShowPanelWithText(1, "“Maybe I'll meet my prince in this city? Or at least an interesting clown...”", "Aliya"));
+                    StartCoroutine(ShowPanelWithText(0, "One gloomy day Victor received an anonymous letter saying that a closed tournament was being held, and of course it was clear what kind of tournament it was"));
                     ChangeBackground(_1ChapterSprites[1]);
                     break;
                 case 4:
-                    StartCoroutine(ShowPanelWithText(2, " “Aliya, are you already dreaming of a prince? What about our circus? We need to prepare for the performance and impress the audience with new tricks!”", "Kael"));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    StartCoroutine(ShowPanelWithText(0, "Victor understood perfectly well that the participants were the elite of the criminal world and professionals ready to do anything to win. The prize is not only a huge amount of money, but also influence in the whole city."));
+                    ChangeBackground(_1ChapterSprites[2]);
                     break;
                 case 5:
-                    StartCoroutine(ShowPanelWithText(1, "“Of course, Kael, you know how much I love the circus. But it doesn't hurt to dream a little too.””", "Aliya"));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    StartCoroutine(ShowPanelWithText(0, "Victor decided that he needed to participate in this tournament. But he had doubts, so he called his brother Sam and asked him to come to discuss important issues"));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 6:
-                    StartCoroutine(ShowPanelWithText(0, "Suddenly, the car braked sharply. Kael and Alia lost their balance and fell."));
-                    ChangeBackground(_1ChapterSprites[0]);
+                    StartCoroutine(ShowPanelWithText(1, "Thank you for coming so quickly Sam"));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 7:
-                    StartCoroutine(ShowPanelWithText(1, "Wow! What an interesting town… And what a volcano! Maybe we can put on a show here too?", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    StartCoroutine(ShowPanelWithText(1, "Good to see you Victor, tell me what's so urgent that I had to postpone work."));
+                    StartCoroutine(AnimateCharacter(2));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 8:
-                    StartCoroutine(ShowPanelWithText(2, "I don't know, Aliya… I feel something is wrong. The volcano does not seem to be simple…", "Kael"));
-                    StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    StartCoroutine(ShowPanelWithText(1, "I think you've heard there's a private tournament in town, so I thought I'd show up and do the honors."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 9:
-                    ChangeBackground(_1ChapterSprites[2]);
+                    StartCoroutine(ShowPanelWithText(1, "I'm not sure that's a great idea, Victor. After all, it's a bunch of con professionals out there. You think you can win them over?"));
+                    StartCoroutine(AnimateCharacter(2));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 10:
-                    StartCoroutine(ShowPanelWithText(0, "You left the circus cars at the edge of the city and moved to the center. The houses were built of dark volcanic stone, and the streets were narrow and winding."));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    StartCoroutine(ShowPanelWithText(1, "I don't have a choice, brother. Look where I live, how I live. My honor has been sullied. I've always been an honorable player and I want to prove it to everyone and get my good name back."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 11:
-                    StartCoroutine(ShowPanelWithText(2, "“This place looks like a set for a horror movie!”", "Kael"));
+                    StartCoroutine(ShowPanelWithText(1, "Well, if that's what you decide. I have a very good friend named Sheryl. I think she can help you get in there."));
                     StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    ChangeBackground(_1ChapterSprites[3]);    
                     break;
                 case 12:
-                    StartCoroutine(ShowPanelWithText(1, "“Just look at how beautiful it is! Imagine what bright and magical effects we can do during a performance with such an atmosphere!”", "Aliya"));
+                    StartCoroutine(ShowPanelWithText(1, "Sheryl, is that the redheaded girl who works at the bar? I didn't know she had that kind of connection."));
                     StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 13:
-                    StartCoroutine(ShowPanelWithText(2, "“Yes, but I still feel a little awkward. This place seems very strange.”", "Kael"));
+                    StartCoroutine(ShowPanelWithText(1, "Trust me, there's a lot you don't know about her. You shouldn't judge her by her looks. She's not called the queen of hearts because she broke a lot of men's hearts. It's for other reasons."));
                     StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[2]);
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 14:
-                    StartCoroutine(ShowPanelWithText(0, "You see a group of people standing at the entrance to some room. They are dressed in dark clothes and look at you with disbelief. One of them comes forward and addresses you in a harsh voice."));
+                    StartCoroutine(ShowPanelWithText(0, "Sam was able to arrange for Sheryl and Victor to meet at a bar that hardly anyone goes to."));
                     ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 15:
-                    StartCoroutine(AnimateCharacter(3));
+                    StartCoroutine(ShowPanelWithText(1, "Sheryl, I'm so glad you could make it. Meet Victor, my brother."));
+                    StartCoroutine(AnimateCharacter(2));
                     ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 16:
-                    StartCoroutine(ShowPanelWithText(2, "“Don't worry, Aliya! We'll be leaving here soon! In the next city we will put on the most magnificent show in the world!”", "Kael"));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    StartCoroutine(ShowPanelWithText(1, "Oh, Victor. I've heard a lot about you. What can I do for a man like you?"));
+                    StartCoroutine(AnimateCharacter(1));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 17:
-                    StartCoroutine(ShowPanelWithText(1, "“I can't get this volcano out of my head… It doesn't seem simple. There's something so... mystical about him...”", "Aliya"));
-                    ChangeBackground(_1ChapterSprites[1]);
+                    StartCoroutine(ShowPanelWithText(1, "Hello, I'd like to enter the private tournament."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 18:
-                    StartCoroutine(ShowPanelWithText(0, "Suddenly, the train starts shaking. At first it is easy, but gradually the trembling increases, and the car sways from side to side.. You run out of the carriage"));
-                    ChangeBackground(_1ChapterSprites[6]);
+                    StartCoroutine(ShowPanelWithText(1, "Not so loud. Why are you going in there? Isn't life nice without adrenaline?"));
+                    StartCoroutine(AnimateCharacter(1));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 19:
-                    StartCoroutine(ShowPanelWithText(1, "It seems to be a volcano! It's like he's shaking the earth!”", "Aliya"));
+                    StartCoroutine(ShowPanelWithText(1, "I want to live up to my name, it's very important to me. I'm tired of living and hiding from everyone. I'm an honest man and even more so an honest player."));
                     StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[6]);
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 20:
-                    StartCoroutine(ShowPanelWithText(0, "Kael pulls out a small doll from his pocket, which he always carries with him. Kael casts a spell, and the doll turns into a bright bird"));
-                    ChangeBackground(_1ChapterSprites[6]);
+                    StartCoroutine(ShowPanelWithText(1, "Sheryl, please help him get into this tournament. I'll do anything you want for the favor."));
                     StartCoroutine(AnimateCharacter(2));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 21:
-                    StartCoroutine(ShowPanelWithText(0, "The bird flies into the air, carrying them away from the trembling train."));
-                    ChangeBackground(_1ChapterSprites[2]);
-                    CurrentSceneIndex = 41;
+                    StartCoroutine(ShowPanelWithText(1, "Well, I'll take you there. But mind you, I'm not doing this because I care about your name, only out of sympathy for your brother."));
+                    StartCoroutine(AnimateCharacter(1));
+                    ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 22:
-                    StartCoroutine(ShowPanelWithText(1, "“Hello! We are the Wonders of the World Circus! We came to your city to please you with our show!”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 23:
-                    StartCoroutine(ShowPanelWithText(1, "“The circus? Why would you come here? This is not a place for fun. Only the volcano reigns here!”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 24:
-                    StartCoroutine(ShowPanelWithText(1, "“But we came for a reason. We want to help this city! We can put on a show and cheer you up!”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 25:
-                    StartCoroutine(ShowPanelWithText(2, "“Yes, and we want to learn more about the volcano. Maybe we can help you with it?”", "Kael"));
-                    StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 26:
-                    StartCoroutine(ShowPanelWithText(1, "“Help me? With a volcano? No one can help with the volcano. He's a force of nature, and he doesn't need help.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 27:
-                    StartCoroutine(ShowPanelWithText(1, "“But he's so restless! He threatens to destroy your city!”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 28:
-                    StartCoroutine(ShowPanelWithText(1, "“This is a natural cycle. The volcano is breathing, and we must live in harmony with it.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 29:
-                    StartCoroutine(ShowPanelWithText(1, "“Well, if you're so brave, then come in. But don't say we didn't warn you.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 30:
-                    StartCoroutine(ShowPanelWithText(0, "He steps aside and you enter the temple. It is dark and damp inside, and in the center of the temple there is a huge altar on which a fiery torch is burning."));
-                    ChangeBackground(_1ChapterSprites[5]);
-                    break;
-                case 31:
                     GameInstance.UINavigation.OpenGameOverPopup();
-                    break;
-                case 32:
-                    StartCoroutine(ShowPanelWithText(1, "“Sorry, we just wanted to know more about this volcano. We have heard many stories about him, but we want to find out the truth from the locals.”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 33:
-                    StartCoroutine(ShowPanelWithText(1, "“You shouldn't have come here. This place is not for outsiders.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 34:
-                    StartCoroutine(ShowPanelWithText(1, "“But we want to help! The volcano is very strong, and we want to find out what can be done to prevent it from destroying your city.”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 35:
-                    StartCoroutine(ShowPanelWithText(1, "“Help me? With a volcano? No one can help with the volcano. He's a force of nature, and he doesn't need help.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 36:
-                    StartCoroutine(ShowPanelWithText(1, "“You shouldn't have come here. This place is not for you. But since you are already here, you will see that you are not destined to know.”", "Man"));
-                    StartCoroutine(AnimateCharacter(3));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    CurrentSceneIndex = 29;
-                    break;
-                case 37:
-                    StartCoroutine(ShowPanelWithText(0, "You turn around and leave the temple."));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 38:
-                    StartCoroutine(ShowPanelWithText(2, "“Aliya, wait! Maybe we could learn something else from them? Maybe they know how to calm the volcano?”", "Kael"));
-                    StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 39:
-                    StartCoroutine(ShowPanelWithText(1, "“I do not know, Kael. But I feel like we shouldn't stop. We have to go to the circus and get ready for the performance. Maybe we'll find the answers elsewhere.”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 40:
-                    StartCoroutine(ShowPanelWithText(0, "You leave the temple and turn towards the city. In the distance you can see the circus wagons that stood on the edge of the city."));
-                    ChangeBackground(_1ChapterSprites[0]);
-                    break;
-                case 41:
-                    ChangeBackground(_1ChapterSprites[0]);
-                    break;
-                case 42:
-                    StartCoroutine(ShowPanelWithText(0, "The bird landed on the edge of the city, next to the very temple where you met people in dark clothes. Aliya walked towards the temple."));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 43:
-                    StartCoroutine(ShowPanelWithText(2, "“What are you doing? You can't go there! It's dangerous out there!”", "Kael"));
-                    StartCoroutine(AnimateCharacter(2));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    break;
-                case 44:
-                    StartCoroutine(ShowPanelWithText(1, "“I have to try. I feel that there is something important in this temple, something that can help us save the city.”", "Aliya"));
-                    StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[3]);
-                    CurrentSceneIndex = 29;
                     break;
                 default:
                     StartCoroutine(ShowPanelWithText(0, "Конец первой главы!"));
@@ -454,7 +357,6 @@ namespace GameCore
                 case 15:
                     StartCoroutine(ShowPanelWithText(0, "The girl suddenly disappeared"));
                     ChangeBackground(_1ChapterSprites[7]);
-                    GameInstance.UINavigation.CloseRecepiePopup();
                     break;
                 case 16:
                     GameInstance.UINavigation.OpenGameOverPopup();
