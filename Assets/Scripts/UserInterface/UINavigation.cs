@@ -115,6 +115,20 @@ namespace UserInterface
 
             GameInstance.FXController.StopFireworksParticle();
 
+            if (gameClose)
+            {
+                gameClose = false;
+                ResetGamePopups();
+                OnGameWindowClosed?.Invoke();
+                GameInstance.FXController.StopGameBackgroundParticle();
+            }
+
+            OpenGroup(MainMenu);
+            CloseGroup(GameMenu);
+            CloseGroup(LoadingMenu);
+            
+            yield return new WaitForSeconds(0.5f);
+            
             if (needAward)
             {
                 switch (GameInstance.NovelController.CurrentChapterIndex)
@@ -129,18 +143,6 @@ namespace UserInterface
 
                 _lastWin = false;
             }
-
-            if (gameClose)
-            {
-                gameClose = false;
-                ResetGamePopups();
-                OnGameWindowClosed?.Invoke();
-                GameInstance.FXController.StopGameBackgroundParticle();
-            }
-
-            OpenGroup(MainMenu);
-            CloseGroup(GameMenu);
-            CloseGroup(LoadingMenu);
         }
 
         private IEnumerator OpenGamePopup()

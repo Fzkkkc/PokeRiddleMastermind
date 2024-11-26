@@ -28,6 +28,11 @@ namespace UserInterface
         private void OnMoneyChanged(ulong money) 
         {
             StartCoroutine(AnimateTextChange(money));
+            if (money != 0)
+            {
+                StartCoroutine(AnimateScale());
+            }
+           
         }
 
         private IEnumerator AnimateTextChange(ulong newAmount)
@@ -50,6 +55,26 @@ namespace UserInterface
             {
                 _currencyText.SetText(newAmount.ToString());
             }
+        }
+
+        private IEnumerator AnimateScale()
+        {
+            Vector3 scaleUp = new Vector3(1.2f, 1.2f, 1.2f);
+            Vector3 scaleDown = Vector3.one;
+            bool scalingUp = true;
+
+            float animationDuration = 0.7f;
+            float elapsedTime = 0f;
+
+            while (elapsedTime < animationDuration)
+            {
+                transform.localScale = scalingUp ? scaleUp : scaleDown;
+                scalingUp = !scalingUp;
+                yield return new WaitForSeconds(0.1f);
+                elapsedTime += 0.1f;
+            }
+
+            transform.localScale = Vector3.one;
         }
     }
 }
