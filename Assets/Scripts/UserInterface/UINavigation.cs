@@ -117,7 +117,16 @@ namespace UserInterface
 
             if (needAward)
             {
-                GameInstance.MoneyManager.AddCoinsCurrency(500);
+                switch (GameInstance.NovelController.CurrentChapterIndex)
+                {
+                    case 0:
+                        GameInstance.MoneyManager.AddCoinsCurrency(500);
+                        break;
+                    case 1:
+                        GameInstance.MoneyManager.AddCoinsCurrency(1500);
+                        break;
+                }
+
                 _lastWin = false;
             }
 

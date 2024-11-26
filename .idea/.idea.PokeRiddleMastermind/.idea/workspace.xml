@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/ButtonFX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/AudioCueScriptableObject.cs" />
+        <option value="$PROJECT_DIR$/../../BitBucket/App1160/codemagic.yaml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
       </list>
@@ -60,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732608563370</updated>
-      <workItem from="1732608568542" duration="5956000" />
+      <workItem from="1732608568542" duration="9057000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ namespace GameCore
         [SerializeField] private List<Sprite> _1ChapterSprites;
         [SerializeField] private List<Sprite> _2ChapterSprites;
         [SerializeField] private List<Sprite> _charactersImages;
-        [SerializeField] private AudioCueScriptableObject _voice;
+        public AudioCueScriptableObject _voice;
         [SerializeField] private List<AudioClip> _clips;
         [SerializeField] private List<AudioClip> _clips2Chapter;
         
@@ -36,6 +36,14 @@ namespace GameCore
             else if (CurrentChapterIndex == 1 && CurrentSceneIndex < _clips2Chapter.Count)
             {
                 _voice.Options.clip = _clips2Chapter[CurrentSceneIndex];
+            }
+        }
+
+        private void SetClipPrevious()
+        {
+            if (CurrentChapterIndex == 1 && CurrentSceneIndex <= _clips2Chapter.Count)
+            {
+                _voice.Options.clip = _clips2Chapter[CurrentSceneIndex - 1];
             }
         }
         
@@ -300,87 +308,133 @@ namespace GameCore
 
         private void ShowChapter2Scenes()
         {
+            if (CurrentSceneIndex <= 15)
+            {
+                GameInstance.Audio.Play(_voice);
+            }
+            else if (CurrentSceneIndex >= 17 && CurrentSceneIndex <= 23)
+            {
+                SetClipPrevious();
+                GameInstance.Audio.Play(_voice);
+            }
+            
             switch (CurrentSceneIndex)
             {
                 case 0:
-                    StartCoroutine(ShowPanelWithText(0, "Aliya and Kael approach the altar and see unfamiliar symbols in another language"));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    StartCoroutine(ShowPanelWithText(0, "Sheryl, kept her word and was able to get Victor into the private tournament."));
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 1:
-                    StartCoroutine(ShowPanelWithText(0, "Aliyah begins to read the symbols on the altar. At first they seem meaningless, but then she begins to understand their meanings."));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    StartCoroutine(ShowPanelWithText(0, "Going inside Victor felt old memories of this place, he remembers every table every machine, all this reminds him of the happy days when he was not considered a scammer"));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 2:
-                    StartCoroutine(ShowPanelWithText(0, "Suddenly, a girl comes out of the darkness. She doesn't look like all the people around, she seems to glow from the inside."));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(1, "Oh so many fond and unpleasant memories of this place."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 3:
-                    StartCoroutine(ShowPanelWithText(1, "“You have come to the altar of the Volcano. Are you looking for answers?”", "Girl"));
+                    StartCoroutine(ShowPanelWithText(1, "Don't get all snotty, Victor! We didn't come here to reminisce."));
                     StartCoroutine(AnimateCharacter(1));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 4:
-                    StartCoroutine(ShowPanelWithText(1, "“Yeah. We want to learn more about the volcano. He is very strong and threatens to destroy everything around him.”", "Aliya"));
+                    StartCoroutine(ShowPanelWithText(1, "I'm sorry, Sheryl, I'm a little surprised it hasn't changed in so many years."));
                     StartCoroutine(AnimateCharacter(0));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 5:
-                    StartCoroutine(ShowPanelWithText(1, "“The volcano is the heart of the city. He keeps secrets that not everyone can know.“I can give you a clue. But you have to be ready for the challenge.", "Girl"));
+                    StartCoroutine(ShowPanelWithText(1, "Shit, here comes the Maestro. If we haven't met Victor."));
                     StartCoroutine(AnimateCharacter(1));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 6:
-                    StartCoroutine(ShowPanelWithText(0, "She hands you a scroll."));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(1, "Well, Well, Well,  look who's here. It's Victor Rush himself. What are you doing here, my dear friend?"));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 7:
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(1, "Maestro. I didn't realize you were still here"));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 8:
-                    StartCoroutine(ShowPanelWithText(1, "The girl smiles a mysterious smile.”", "Girl"));
-                    StartCoroutine(AnimateCharacter(1));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    StartCoroutine(ShowPanelWithText(1, "I'm always here. I'm still wondering what you're doing here."));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 9:
-                    StartCoroutine(ShowPanelWithText(1, "“I can't tell you everything. But I can tell you that you need to find three ingredients to open the way to the heart of the volcano. They are hiding in this city. Find them and calm the volcano.”", "Girl"));
-                    StartCoroutine(AnimateCharacter(1));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    CurrentSceneIndex = 10;
+                    StartCoroutine(ShowPanelWithText(1, "I came to a private tournament to play my honorable name."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 10:
-                    StartCoroutine(ShowPanelWithText(1, "“This scroll says what you need to do to calm the volcano. But be careful. The path to the secrets of the volcano is dangerous.”", "Girl"));
-                    StartCoroutine(AnimateCharacter(1));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    StartCoroutine(ShowPanelWithText(1, "Ha ha ha ha ha ha ha ha ha ha ha, honest to goodness ? Victor. What an honest name. You better get out of here."));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 11:
-                    StartCoroutine(ShowPanelWithText(0, "She points to the symbols written on the scroll. You see three signs"));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(1, "You're laughing. Well, I'm really here to do it. And you're not gonna stop me."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 12:
-                    StartCoroutine(ShowPanelWithText(0, "The symbol of a bright red blooming orchid, which is located in a cave in the southern part of the city."));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(1, "Ha ha ha, Victor, I'd love to see that. Well, let's go. I'll take you "));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[0]);
                     break;
                 case 13:
-                    StartCoroutine(ShowPanelWithText(0, "A piece of frozen lava that makes a strange sound when pressed. This piece is located at the bottom of the volcano."));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(0, "Maestro takes Victor to the hall where they hold a closed tournament, everyone looks around at Victor. This oppressive atmosphere is getting worse. But it's too late to retreat."));
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 14:
-                    StartCoroutine(ShowPanelWithText(0, "Tear Stone: it lies at the bottom of a deep lake, which is located in the crater of a volcano."));
-                    ChangeBackground(_1ChapterSprites[7]);
-                    StartCoroutine(AnimateCharacter(1));
+                    StartCoroutine(ShowPanelWithText(0, "You need to win 3 games.\nYou don't have to win in a row.\nThe main thing is to get 3 wins\nto pass. Good luck"));
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 15:
-                    StartCoroutine(ShowPanelWithText(0, "The girl suddenly disappeared"));
-                    ChangeBackground(_1ChapterSprites[7]);
+                    StartCoroutine(ShowPanelWithText(0, "Your task is to get rid of all the cards in your hand!"));
+                    ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 16:
-                    GameInstance.UINavigation.OpenGameOverPopup("", "");
+                    //GameInstance.UINavigation.OpenMiniGame();
+                    Debug.Log("Mini Game");
+                    break;
+                case 17:
+                    StartCoroutine(ShowPanelWithText(1, "Well, well, well, Victor, you really are a professional player. Well, everything was fair and I really can't call you a scammer."));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 18:
+                    StartCoroutine(ShowPanelWithText(1, "I always play fair Maestro. And I'm glad I was able to clear my name. That's the best reward of all."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 19:
+                    StartCoroutine(ShowPanelWithText(1, "You're also humble, which is nice, so take your winnings and....... your good name."));
+                    StartCoroutine(AnimateCharacter(3));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 20:
+                    StartCoroutine(ShowPanelWithText(1, "Victor, you were absolutely marvelous! At one point I even thought you were cheating, but I followed your every move. And either you're a really good cheater or you're a really professional."));
+                    StartCoroutine(AnimateCharacter(1));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 21:
+                    StartCoroutine(ShowPanelWithText(1, "Thanks Sheryl, but I played fair. And here's your share, so to speak, for helping me out! Take care of yourself and..... my brother."));
+                    StartCoroutine(AnimateCharacter(0));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 22:
+                    StartCoroutine(ShowPanelWithText(1, "You're a pleasure to work with. We look forward to seeing you again at our place"));
+                    StartCoroutine(AnimateCharacter(1));
+                    ChangeBackground(_2ChapterSprites[1]);
+                    break;
+                case 23:
+                    StartCoroutine(ShowPanelWithText(0, "Victor was able to prove to the whole town that he is an honest man and a great player. Now in every establishment he was held up as an example to everyone who entered. His life got better and he gave up these games, created his own family and completely forgot about his old life."));
+                    ChangeBackground(_1ChapterSprites[5]);
+                    break;
+                case 24:
+                    GameInstance.UINavigation.OpenGameOverPopup("The End chapter 2", "+1500");
                     break;
                 default:
                     StartCoroutine(ShowPanelWithText(0, "Конец второй главы!"));

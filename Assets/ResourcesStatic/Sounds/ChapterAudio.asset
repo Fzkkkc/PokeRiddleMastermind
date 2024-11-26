@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ChapterAudio
   m_EditorClassIdentifier: 
   options:
-  - clip: {fileID: 8300000, guid: e45e83fc209f72a4faf94479bc6a2858, type: 3}
+  - clip: {fileID: 8300000, guid: a45c28e26d222cb409d5c28b899c8ee1, type: 3}
     volume: 1
   minPitch: 0.9
   maxPitch: 1.1
