@@ -31,6 +31,7 @@ namespace UserInterface
 
         private bool _lastWin;
         [SerializeField] private TextMeshProUGUI _gameOverText;
+        [SerializeField] private TextMeshProUGUI _rewardText;
         
         [SerializeField] private Image _bgOverImage;
         [SerializeField] private List<Sprite> _gameOverSprites;
@@ -84,10 +85,9 @@ namespace UserInterface
         {
             StartCoroutine(OpenGamePopup());
         }
-        
-        public void OpenGameOverPopup(bool isLast = false)
+
+        public void OpenGameOverPopup(string gameOverText, string rewardText)
         {
-            _bgOverImage.sprite = _gameOverSprites[GameInstance.NovelController.CurrentChapterIndex];
             ResetGamePopups();
             IsInGame = false;
             StartCoroutine(FadeCanvasGroup(GamePopups[0], true));
@@ -95,7 +95,8 @@ namespace UserInterface
             GameInstance.Audio.Play(GameInstance.Audio.GameOverSounds);
             GameInstance.FXController.PlayFireworksParticle();
 
-            _gameOverText.text = isLast ? "Congratulations! You've passed the Volcano of Destiny!" : "Keep it up ! This award will help you in your adventures!";
+            _gameOverText.text = gameOverText;
+            _rewardText.text = rewardText;
         }
         
         public IEnumerator OpenMenuPopup(int index, bool toMenu = true, bool needAward = false, bool afterLoad = false)

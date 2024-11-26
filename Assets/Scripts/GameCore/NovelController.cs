@@ -290,7 +290,7 @@ namespace GameCore
                     ChangeBackground(_1ChapterSprites[3]);
                     break;
                 case 22:
-                    GameInstance.UINavigation.OpenGameOverPopup();
+                    GameInstance.UINavigation.OpenGameOverPopup("The End chapter 1", "+500");
                     break;
                 default:
                     StartCoroutine(ShowPanelWithText(0, "kinec"));
@@ -380,7 +380,7 @@ namespace GameCore
                     ChangeBackground(_1ChapterSprites[7]);
                     break;
                 case 16:
-                    GameInstance.UINavigation.OpenGameOverPopup();
+                    GameInstance.UINavigation.OpenGameOverPopup("", "");
                     break;
                 default:
                     StartCoroutine(ShowPanelWithText(0, "Конец второй главы!"));
