@@ -452,6 +452,11 @@ namespace GameCore
             }
         }
 
+        public void EnterUnoGame()
+        {
+            StartCoroutine(ExitCor());
+        }
+
         private IEnumerator ExitCor()
         {
             GameInstance.UINavigation.TransitionAnimation();
