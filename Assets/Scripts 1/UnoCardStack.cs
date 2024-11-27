@@ -1,19 +1,19 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class UnoCardStack : MonoBehaviour
 {
-    List<UnoCard> cards = new List<UnoCard>();
-    public bool isDiscard = false;
+    private readonly List<UnoCard> cards = new List<UnoCard>();
+    public bool isDiscard;
     public Owner owner;
-    int Discard_Z = 0;
-    public Action<UnoCard,int,Owner> OnCardSelected;
+    private int Discard_Z;
+    public Action<UnoCard, int, Owner> OnCardSelected;
     public AudioSource CardSound;
 
     public bool IsEmpty()
     {
-        return cards.Count == 0;//TODO!
+        return cards.Count == 0; 
     }
 
     public void Pop(UnoCard card)
@@ -22,21 +22,20 @@ public class UnoCardStack : MonoBehaviour
 
         cards.Remove(card);
     }
+
     public void PlayCardSound()
     {
         CardSound.Play();
     }
-    //PushAndMove: moves the card position to the stack position
-    public void PushAndMove(UnoCard card,bool Silent, Action callback)
+
+    public void PushAndMove(UnoCard card, bool Silent, Action callback)
     {
-        if(!Silent) {
-            PlayCardSound();
-            }
+        if (!Silent) PlayCardSound();
 
         card.owner = owner;
         cards.Add(card);
 
-        card.OnSelected += OnCardSelected;//TODO
+        card.OnSelected += OnCardSelected; //TODO
 
 
         if (isDiscard)
@@ -46,7 +45,9 @@ public class UnoCardStack : MonoBehaviour
             Discard_Z += 45;
         }
         else
+        {
             card.transform.rotation = transform.rotation;
+        }
 
         card.Move(transform.position, () =>
         {
@@ -55,19 +56,17 @@ public class UnoCardStack : MonoBehaviour
             callback();
         });
     }
+
     public List<UnoCard> GetAllCards()
     {
-        List<UnoCard> ALLcards = new List<UnoCard>();
-        for (int i = 0; i < cards.Count; i++)
-        {
-            ALLcards.Add(cards[i]);
-        }
+        var ALLcards = new List<UnoCard>();
+        for (var i = 0; i < cards.Count; i++) ALLcards.Add(cards[i]);
 
         return ALLcards;
     }
+
     public bool HasOneCard()
     {
         return cards.Count == 1;
     }
-
 }

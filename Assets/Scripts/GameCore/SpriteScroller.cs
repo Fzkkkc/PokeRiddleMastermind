@@ -120,7 +120,9 @@ namespace GameCore
 
         private void PlayThirdChapter()
         {
-            Debug.Log("mini game");
+            PlayerPrefs.SetInt("IsFromNovell", 0);
+            PlayerPrefs.Save();
+            GameInstance.NovelController.EnterUnoGame();
         }
 
         private void BuySecondLevel()

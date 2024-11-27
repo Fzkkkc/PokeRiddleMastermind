@@ -5,26 +5,36 @@ namespace Services
     public class Singleton<T> : MonoBehaviour where T : Singleton<T>
     {
         private static T _instance;
+        public static T Default => _instance;
+        public static bool HasDefault => _instance != null;
+
         protected bool isOrigin;
-        public static T Default { get => _instance; }
-        public static bool HasDefault { get; private set; }
+
         protected virtual void Awake()
         {
-            Initialization();
+            InitializeSingleton();
         }
-        private void Initialization()
+
+        private void InitializeSingleton()
         {
-            if (!HasDefault)
+            if (_instance == null)
             {
                 _instance = (T)this;
-                HasDefault = true;
+                DontDestroyOnLoad(gameObject);
                 isOrigin = true;
             }
-            else
+            else if (_instance != this)
             {
-                DestroyImmediate(this);
+                DestroyImmediate(gameObject);
             }
         }
 
+        protected virtual void OnDestroy()
+        {
+            if (isOrigin)
+            {
+                _instance = null;
+            }
+        }
     }
 }

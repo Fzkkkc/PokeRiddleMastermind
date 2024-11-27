@@ -398,7 +398,9 @@ namespace GameCore
                     ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 16:
-                    StartCoroutine(ExitCor());
+                    PlayerPrefs.SetInt("IsFromNovell", 1);
+                    PlayerPrefs.Save();
+                    EnterUnoGame();
                     Debug.Log("Mini Game");
                     break;
                 case 17:

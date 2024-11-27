@@ -9,10 +9,21 @@ namespace UserInterface
     {
         [SerializeField] private TMP_Text _loadingText;
         [SerializeField] private bool _isTest = false;
-
-        private void Start()
+        
+        public void Init()
         {
-            StartCoroutine(AnimatePercentage());
+            if (PlayerPrefs.GetInt("IsFromNovell", 0) == 1)
+            {
+                GameInstance.NovelController.CurrentChapterIndex = 1;
+                GameInstance.NovelController.CurrentSceneIndex = 17;
+                PlayerPrefs.SetInt("IsFromNovell", 0);
+                PlayerPrefs.Save();
+                GameInstance.UINavigation.OpenGameMenu(true);
+            }
+            else
+            {
+                StartCoroutine(AnimatePercentage());
+            }
         }
 
         private IEnumerator AnimatePercentage()

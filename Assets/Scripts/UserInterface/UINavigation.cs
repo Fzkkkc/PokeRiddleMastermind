@@ -81,9 +81,9 @@ namespace UserInterface
             StartCoroutine(OpenMenuPopup(0, true, _lastWin, true));
         }
         
-        public void OpenGameMenu()
+        public void OpenGameMenu(bool afterNovell = false)
         {
-            StartCoroutine(OpenGamePopup());
+            StartCoroutine(OpenGamePopup(afterNovell));
         }
 
         public void OpenGameOverPopup(string gameOverText, string rewardText)
@@ -145,10 +145,14 @@ namespace UserInterface
             }
         }
 
-        private IEnumerator OpenGamePopup()
+        private IEnumerator OpenGamePopup(bool afterNovell = false)
         {
-            TransitionAnimation();
-            yield return new WaitForSeconds(0.5f);
+            if (!afterNovell)
+            {
+                TransitionAnimation();
+                yield return new WaitForSeconds(0.5f);
+            }
+            
             GameInstance.MusicSystem.ChangeMusicClip(false);
             IsInGame = true;
             GameInstance.FXController.StopFireworksParticle();

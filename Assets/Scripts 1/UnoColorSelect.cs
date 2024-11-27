@@ -11,19 +11,22 @@ public class UnoColorSelect : MonoBehaviour
 
     public void SelectBlueColor(bool isOn)
     {
-        if(isOn)
+        if (isOn)
             ColorSelected = UnoCard.CardType.Blue;
     }
+
     public void SelectRedColor(bool isOn)
     {
         if (isOn)
             ColorSelected = UnoCard.CardType.Red;
     }
+
     public void SelectGreenColor(bool isOn)
     {
         if (isOn)
             ColorSelected = UnoCard.CardType.Green;
     }
+
     public void SelectYelloColor(bool isOn)
     {
         if (isOn)

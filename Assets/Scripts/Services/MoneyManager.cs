@@ -17,6 +17,7 @@ namespace Services
         public void Init(ulong startMoney)
         {
             _coins = PrefsMoney;
+            AddCoinsCurrency(1000);
         }
         
         public ulong GetCoinsCurrency()
