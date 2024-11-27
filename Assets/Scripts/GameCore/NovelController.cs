@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Services;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace GameCore
@@ -22,6 +23,7 @@ namespace GameCore
         public AudioCueScriptableObject _voice;
         [SerializeField] private List<AudioClip> _clips;
         [SerializeField] private List<AudioClip> _clips2Chapter;
+        [SerializeField] private Animator _gameTransAnimator;
         
         public int CurrentSceneIndex;
         public int CurrentChapterIndex = 0;
@@ -396,7 +398,7 @@ namespace GameCore
                     ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 16:
-                    //GameInstance.UINavigation.OpenMiniGame();
+                    StartCoroutine(ExitCor());
                     Debug.Log("Mini Game");
                     break;
                 case 17:
@@ -448,6 +450,13 @@ namespace GameCore
             {
                 text.text = "";
             }
+        }
+
+        private IEnumerator ExitCor()
+        {
+            GameInstance.UINavigation.TransitionAnimation();
+            yield return new WaitForSeconds(0.5f);
+            SceneManager.LoadScene(1);
         }
     }
 }

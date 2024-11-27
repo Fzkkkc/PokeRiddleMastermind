@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50c892c1-58a3-4b51-81e5-0b21dcc4ea35" name="Default Changelist" comment="" />
+    <list default="true" id="50c892c1-58a3-4b51-81e5-0b21dcc4ea35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts 1/MenuControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -19,9 +28,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/AudioCueScriptableObject.cs" />
         <option value="$PROJECT_DIR$/../../BitBucket/App1160/codemagic.yaml" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MoneyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts 1/MenuControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
       </list>
     </option>
   </component>
@@ -67,6 +77,7 @@
       <updated>1732608563370</updated>
       <workItem from="1732608568542" duration="9388000" />
       <workItem from="1732620469744" duration="167000" />
+      <workItem from="1732699289528" duration="2192000" />
     </task>
     <servers />
   </component>
