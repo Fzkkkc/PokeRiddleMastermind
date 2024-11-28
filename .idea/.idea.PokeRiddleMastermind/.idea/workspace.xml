@@ -20,34 +20,734 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c892c1-58a3-4b51-81e5-0b21dcc4ea35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokeRiddleMastermind/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/GameTransIn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GameTransIn.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/unoCardSet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/unoCardSet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Basics/rocketgradient_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Basics/rocketgradient_ADD.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Basics/solid_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Basics/solid_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Misc/Explosions/nova_3x3_spritesheet_ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Misc/Explosions/nova_3x3_spritesheet_ADD.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Misc/Skulls/skull_evil_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Materials/Misc/Skulls/skull_evil_AB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodDripping2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodDripping2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodShowerLoop2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodShowerLoop2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodDripping2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodDripping2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodExplosion2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodExplosion2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatCritical2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatCritical2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodDripping2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodDripping2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodExplosion2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodExplosion2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodShowerLoop2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodShowerLoop2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatCritical2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatCritical2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatDirectional2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatDirectional2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/MetalHit2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/MetalHit2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/SparkExplosion2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/SparkExplosion2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/StarBurst2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Explosions/StarBurst2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDripping2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDripping2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDrippingHeavy2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterDrippingHeavy2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFall2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFall2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFallSoft2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFallSoft2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Weather.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Weather/Rain2D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Prefabs 2D/Weather/Rain2D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_acid.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_acid.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_bubble.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_bubble.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_bullet.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_bullet.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_chargeup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_chargeup.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_chargeup2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_chargeup2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_dark01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_dark01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_dark02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_dark02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_fireball.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_fireball.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_fireball2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_fireball2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_flash.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_flash.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_frost.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_frost.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_gas.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_gas.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_grenade.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_grenade.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_laser.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_laser.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_lava.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_lava.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_lightning.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_lightning.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_liquid3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_magic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_magic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_magic2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_magic2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_minimagic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_minimagic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_mystic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_mystic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_mystic02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_mystic02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_nuke.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_nuke.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_plasma.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_plasma.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_plasma2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_plasma2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_poisoncloud.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_poisoncloud.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_poof.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_poof.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_rocket.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_rocket.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_rocket2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_rocket2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_scan.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_scan.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sharp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sharp.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_slime.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_slime.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_slime2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_slime2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_snow.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_snow.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_soul.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_soul.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sparkle3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_sparkle3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_storm.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_explosion_storm.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_impact_metal03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_pop_balloon.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_pop_balloon.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_bubble.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_bubble.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_bubble2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_bubble2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_energy04.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_fireball.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_fireball.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_fireball2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_fireball2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_flash.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_flash.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_frost.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_frost.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_gas.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_gas.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_gas2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_gas2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_grenade.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_grenade.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_laser03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_lightning.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_lightning.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_lightning2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_lightning2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_magic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_magic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_mystic.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_mystic.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_nuke.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_nuke.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_nuke02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_nuke02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_pistol03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_rocket03.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_snowball.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_snowball.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_soul.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_soul.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_storm.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_shoot_storm.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_spawn.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_spawn.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_stun01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_stun01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_stun02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_stun02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_target_hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Sound/etfx_target_hit.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/OwO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/OwO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/OwOEyebrow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/OwOEyebrow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/UwU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/UwU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/XD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/XD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/angry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/angry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/angryscream.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/angryscream.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/bigsmile.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/bigsmile.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/blush.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/blush.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/clenchteeth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/clenchteeth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/clenchteeth2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/clenchteeth2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cool.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cool.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/crazy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/crazy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cute.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/cute.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/dead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/dead.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/deadtired.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/deadtired.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/derp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/derp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/derpgasp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/derpgasp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/disappoint.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/disappoint.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/disappoint2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/disappoint2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/drool.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/drool.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/evil.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/evil.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/expressionless.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/expressionless.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/happy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/happy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/heart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/heart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/injured.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/injured.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/kiss.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/kiss.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/kissyface.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/kissyface.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laugh.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laugh.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laughcry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laughcry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laughsweatdrop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/laughsweatdrop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/mad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/mad.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/nauseous.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/nauseous.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/pleading.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/pleading.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/poop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/poop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sad.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sadcry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sadcry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/scared.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/scared.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/shocked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/shocked.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sick3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/silly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/silly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillyhappy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillyhappy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillysmile.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillysmile.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillywink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sillywink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sinister.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sinister.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sleep.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/sleep.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/starstruck.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/starstruck.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/tearyeyes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/tearyeyes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/thumbsdown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/thumbsdown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/thumbsup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/thumbsup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/yawn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Emojis/yawn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_base01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_base01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_base02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_base02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_bullet_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_bullet_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_exclamation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_exclamation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_health_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_health_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_heart_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_heart_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_lightning_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_lightning_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_magnet_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_magnet_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_n.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_n.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_quest_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_quest_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_shield_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_shield_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_skull_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_skull_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_speed_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_speed_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_star_e.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Powerbox/powerbox_star_e.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_bolt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_bolt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_bullet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_bullet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_exclamation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_exclamation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_health.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_health.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_heart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_heart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_magnet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_magnet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_question.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_question.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_shield.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_shield.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_skull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_skull.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_speed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_speed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_star.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/sym_star.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_bolt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_bolt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_exclamation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_exclamation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_explosive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_explosive.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_skull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Symbols/warn_skull.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_white.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_white.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/sharp_yellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_bang.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_bang.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_blam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_blam.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_boom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_boom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_clunk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_clunk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crash.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_crit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_critical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_critical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_hit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_hit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_ka-pow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_ka-pow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_kick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_kick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_ko.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_ko.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_miss.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_miss.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_omg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_omg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_poof.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_poof.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_pop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_pop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_pow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_pow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_punch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_punch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_smack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_smack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_smooch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_smooch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_sparkle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_sparkle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_splash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_splash.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_splat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_splat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_whammm.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_whammm.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_wow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_wow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_wtf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_wtf.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_zzzap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/Text/txt_zzzap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/aura_punch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/aura_punch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/aura_soft01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/aura_soft01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_half_clear.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_half_clear.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_half_thick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_half_thick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_round2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_round2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_round3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_round3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_soap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/bubble_soap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_blurry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_blurry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_simple_colored.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_simple_colored.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_simple_modular.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_simple_modular.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/candle_soft3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cardglow06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cardglow06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cardglow07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cardglow07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_blurred.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_blurred.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_sharp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_sharp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circle_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circlestretchy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/circlestretchy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hard.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hard.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hard_softshadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hard_softshadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hardshadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_hardshadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft_translucent.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_2x2_soft_translucent.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic_fluffy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic_fluffy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic_softshadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/cloud_magic_softshadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic2_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic2_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic2_soft_inv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic2_soft_inv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic_2x2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic_2x2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic_ss_2x2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/clouds_magic_ss_2x2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/coins.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/coins.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/coins_outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/coins_outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/confetti.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/confetti.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/confetti_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/confetti_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_atlas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_atlas.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_gibs.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_gibs.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_scorch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/decal_scorch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/drop_opaque.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/drop_opaque.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/drop_trsp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/drop_trsp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/evil_spirit3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round2_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round2_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round3_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round3_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_outlined_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_outlined_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_softshadow_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_round_softshadow_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_sharp_flat_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_sharp_flat_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_sharp_soft_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_sharp_soft_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/explosion_spike03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/feather.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/feather.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/feather_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/feather_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire2_6x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire2_6x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_6x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_6x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground_soft3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground_soft3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground_softer3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_ground_softer3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft_blank.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft_blank.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft_spiky.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fire_soft_spiky.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fireball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fireball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fireball2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/fireball2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/glow6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/grab1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/grab1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/grab2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/grab2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_bw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_bw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_edges.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_edges.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical_spiky.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/gradient_vertical_spiky.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/healing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/healing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2broken.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2broken.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2broken_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart2broken_blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/heart_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ice_spikes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ice_spikes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/leaf_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/leaf_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_spikes_3x1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_spikes_3x1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v1_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v1_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v2_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v2_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v3_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightning_v3_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/lightray3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/line_sharp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/line_sharp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_blast.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_blast.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_line.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_line.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_line_sharp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_line_sharp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_orb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_orb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_orb2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_orb2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_runecircle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/magic_runecircle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/moneybills.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/moneybills.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/moneybillsv2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/moneybillsv2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/muzzleflash01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/muzzleflash01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/notes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/notes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/notes2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/notes2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_6x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_6x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_soft_6x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/nova_soft_6x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/numbers.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/numbers.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_circular.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_circular.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_glow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_glow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_spiky.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_spiky.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_twisty.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_twisty.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_twisty2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_ring_twisty2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_soft01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_soft01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_soft02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_soft02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_purple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_purple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/portal_stripes_yellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ring.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ring.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ring_shockwave.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/ring_shockwave.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/rocket_gradient.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/rocket_gradient.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/shield_magic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/shield_magic.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull_evil.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull_evil.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull_love.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/skull_love.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle01_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle01_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_circle02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_sharp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_sharp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/slash_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snow_2x2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snow_2x2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snowflake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snowflake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snowflake2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/snowflake2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle_round.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/sparkle_round.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat00_flat_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat00_flat_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat00_trsp_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat00_trsp_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_flat_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_flat_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_shaded_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_shaded_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_trsp_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat01_trsp_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_flat_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_flat_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_shaded_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_shaded_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_trsp_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat02_trsp_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_flat_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_flat_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_shaded_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_shaded_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_trsp_4x4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/splat03_trsp_4x4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_4x4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_4x4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outlined.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outlined.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outlined_colored.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_outlined_colored.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_soft_4x4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/star_soft_4x4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/talkbubble.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/talkbubble.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/talkbubble_4x4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/talkbubble_4x4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/text_ah_zz.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/text_ah_zz.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/text_haha.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/text_haha.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle_curve.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle_curve.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/triangle_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_soft_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_soft_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_trsp_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/water_trsp_3x3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave_soft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Epic Toon FX/Textures/wave_soft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Atlas.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Atlas.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/54.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/6 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/6 (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/Rectangle 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/Rectangle 13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/1Chapter/БГ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/13 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/13 (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/13 (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/13 (8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/17 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/17 (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/21 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/21 (3).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/22 (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/22 (7).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/47.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/49.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/51.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/52.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/BG/3Chapter/53.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Алия.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Алия.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Девушка.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Девушка.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Каэль.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Каэль.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Мужчина.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/Мужчина.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/изображение_2024-10-09_171534745-Photoroom 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Characters/изображение_2024-10-09_171534745-Photoroom 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 1597880654.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 1597880654.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 1597880655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 1597880655.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 40 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 40 (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Frame 40.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Group 40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Group 40.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Union.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Union.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/snapedit_1728549476243-Photoroom 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/snapedit_1728549476243-Photoroom 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Автор.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/GameUI/Frames/Автор.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880666.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880666.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880667.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880667.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880668.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880669.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880670.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880670.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880671.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880671.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880672.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880672.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880673.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880674.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880674.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880677.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 1597880677.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Frame 49.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 49.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Group 51.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Rectangle 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Rectangle 12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Vector 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Vector 16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/eva_checkmark-fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/eva_checkmark-fill.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/snapedit_1728624739406 1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/snapedit_1728624739406 1@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Главный экран.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Главный экран.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Загрузка.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/Загрузка.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/изображение_2024-10-11_084703085-Photoroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/изображение_2024-10-11_084703085-Photoroom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/изображение_2024-10-11_091519391-Photoroom 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/Loading&amp;Menu/изображение_2024-10-11_091519391-Photoroom 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/MenuAtlas.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/MenuAtlas.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/appicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/NewSprites/appicon.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/TapSound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/TapSound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/win.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/win.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/Для книги.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/AudioCue/Для книги.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/BookSound.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/BookSound.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/TapSound.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sounds/TapSound.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Frame 1597880598.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Frame 1597880598.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Frame 1597880952.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Frame 1597880952.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Rectangle 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/Rectangle 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Виктор.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Виктор.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Мастер.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Мастер.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Сэм.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Сэм.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Шерил.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg1/Шерил.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/GameUI/bg2/3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880950.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880950.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880951.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880951.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880952.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880952.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880953.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880953.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880954.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Frame 1597880954.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 212.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 212.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 214.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 214.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 216.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Group 216.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/green_button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/БГ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/БГ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Загрузка.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResourcesStatic/Sprites/Loading&amp;MenuUI/Загрузка.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/DebugControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/DebugControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/MenuControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/MenuControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/NotifiControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/NotifiControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoCardStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoCardStack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoColorSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoColorSelect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoDiscardPile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoDiscardPile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoDrawPile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoDrawPile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoGameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/UnoUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/UnoUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/Utility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/Utility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/common/DontDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/common/DontDestroy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts 1/common/MoveObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts 1/common/MoveObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/OrientationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/OrientationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/AudioSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/AudioSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/FXController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/FXController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/GameInstance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/GameInstance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MoneyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MusicSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MusicSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterface/LoadingAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterface/LoadingAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Box 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Box 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Box.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_bc7a4c10-b711-4f5b-9e22-f9cf408159a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_bc7a4c10-b711-4f5b-9e22-f9cf408159a9.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backCard.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backCard.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/button2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/button2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/c.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/c.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/c1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/c1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/c2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/c2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/c3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/c3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/c4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/c4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/desktop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/desktop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pause.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pause.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/sound1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/sound1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/sound2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/sound2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/sphere.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/sphere.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/transparentHalfBox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/transparentHalfBox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/unoIcon 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/unoIcon 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/yinyang.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/yinyang.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +767,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/ButtonFX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/AudioCueScriptableObject.cs" />
         <option value="$PROJECT_DIR$/../../BitBucket/App1160/codemagic.yaml" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MoneyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/ChangeOrientation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/OrientationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/UnoPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/UnoUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/Utility.cs" />
@@ -83,14 +781,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts 1/DebugControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/common/MoveObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/common/DontDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/SpriteScroller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts 1/UnoGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts 1/MenuControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/OrientationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/UINavigation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInterface/LoadingAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/AudioSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/FXController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCore/NovelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts 1/UnoGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MusicSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/GameInstance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MoneyManager.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +840,7 @@
       <workItem from="1732608568542" duration="9388000" />
       <workItem from="1732620469744" duration="167000" />
       <workItem from="1732699289528" duration="11771000" />
+      <workItem from="1732779764187" duration="5075000" />
     </task>
     <servers />
   </component>
@@ -155,6 +859,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

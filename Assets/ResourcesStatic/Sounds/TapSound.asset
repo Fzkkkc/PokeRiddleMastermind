@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TapSound
   m_EditorClassIdentifier: 
   options:
-  - clip: {fileID: 8300000, guid: a550cb02580f00c40b4ba02aeff3acb4, type: 3}
+  - clip: {fileID: 8300000, guid: 74ea4a2ad98acb241bdb9753be6cd8c4, type: 3}
     volume: 0.837
   minPitch: 0.9
   maxPitch: 1.1

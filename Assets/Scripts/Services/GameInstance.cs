@@ -26,18 +26,16 @@ namespace Services
         protected override void Awake()
         {
             base.Awake();
+            Application.targetFrameRate = 90;
             if (isOrigin)
             {
-                SceneManager.sceneLoaded += OnSceneLoaded; // Подписка на загрузку сцены
-                InitializeComponents(); // Первичная инициализация
+                SceneManager.sceneLoaded += OnSceneLoaded;
+                InitializeComponents();
             }
         }
 
         private void InitializeComponents()
         {
-            Debug.Log("GameInstance: Инициализация компонентов");
-
-            // Найти объекты на текущей сцене (или оставить null)
             _uiNavigation ??= FindObjectOfType<UINavigation>();
             _novelController ??= FindObjectOfType<NovelController>();
             _fxController ??= FindObjectOfType<FXController>();
@@ -46,7 +44,6 @@ namespace Services
             _loadingAnimation ??= FindObjectOfType<LoadingAnimation>();
             _moneyManager ??= FindObjectOfType<MoneyManager>();
 
-            // Инициализировать только те, которые существуют
             _uiNavigation?.Init();
             _novelController?.Init();
             _fxController?.Init();
@@ -58,13 +55,9 @@ namespace Services
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            Debug.Log($"GameInstance: Сцена загружена - {scene.name}");
-            
-            // Проверить и переинициализировать объекты, если они уничтожены
             if (_uiNavigation == null || _novelController == null || _fxController == null ||
                 _audio == null || _music == null || _loadingAnimation == null || _moneyManager == null)
             {
-                Debug.LogWarning("GameInstance: Переинициализация компонентов, т.к. некоторые ссылки разрушены");
                 InitializeComponents();
             }
             
@@ -84,7 +77,7 @@ namespace Services
         {
             if (isOrigin)
             {
-                SceneManager.sceneLoaded -= OnSceneLoaded; // Отписка от события
+                SceneManager.sceneLoaded -= OnSceneLoaded;
             }
         }
     }

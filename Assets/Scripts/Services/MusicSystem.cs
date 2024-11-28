@@ -36,7 +36,7 @@ namespace Services
             if (GameInstance.UINavigation._isInLoad)
                 source.volume = 0;
             else
-                source.volume = 0.4f;
+                source.volume = 0.2f;
         }
     }
 }

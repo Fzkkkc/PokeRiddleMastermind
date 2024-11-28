@@ -14,6 +14,7 @@ namespace UserInterface
         public List<CanvasGroup> GamePopups;
         public List<CanvasGroup> MainMenuPopups;
         [SerializeField] private Animator _transitionAnimator;
+        [SerializeField] private Animator _transitionGameAnimator;
 
         public CanvasGroup LoadingMenu;
         public CanvasGroup MainMenu;
@@ -74,6 +75,18 @@ namespace UserInterface
             StartCoroutine(OpenMenuPopup(0, true, false, true));
         }
 
+        public void StateSettingsUI(int index)
+        {
+            if (index == 0)
+            {
+                StartCoroutine(FadeCanvasGroup(MainMenuPopups[0], true, 0.5f));
+            }
+            else
+            {
+                StartCoroutine(FadeCanvasGroup(MainMenuPopups[0], false, 0.5f));
+            }
+        }
+        
         public void CloseGameUI()
         {
             gameClose = true;
@@ -188,6 +201,11 @@ namespace UserInterface
         public void TransitionAnimation()
         {
             _transitionAnimator.SetTrigger("Transition");
+        }
+        
+        public void TransitionAnimationGame()
+        {
+            _transitionGameAnimator.SetTrigger("TransitionGame");
         }
 
         public void OpenGroup(CanvasGroup canvasGroup)

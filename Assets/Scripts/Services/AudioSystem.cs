@@ -8,7 +8,7 @@ namespace Services
         private AudioSource[] sources;
         private int current;
 
-        public AudioCueScriptableObject TapSound, GameOverSounds, BookSound;
+        public AudioCueScriptableObject TapSound, GameOverSounds;
         
         public void Init()
         {

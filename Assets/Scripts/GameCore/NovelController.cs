@@ -23,7 +23,6 @@ namespace GameCore
         public AudioCueScriptableObject _voice;
         [SerializeField] private List<AudioClip> _clips;
         [SerializeField] private List<AudioClip> _clips2Chapter;
-        [SerializeField] private Animator _gameTransAnimator;
         
         public int CurrentSceneIndex;
         public int CurrentChapterIndex = 0;
@@ -390,7 +389,7 @@ namespace GameCore
                     ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 14:
-                    StartCoroutine(ShowPanelWithText(0, "You need to win 3 games.\nYou don't have to win in a row.\nThe main thing is to get 3 wins\nto pass. Good luck"));
+                    StartCoroutine(ShowPanelWithText(0, "You need to win a game\nThe main thing is to get win\nto pass. Good luck"));
                     ChangeBackground(_1ChapterSprites[5]);
                     break;
                 case 15:
@@ -461,8 +460,8 @@ namespace GameCore
 
         private IEnumerator ExitCor()
         {
-            GameInstance.UINavigation.TransitionAnimation();
-            yield return new WaitForSeconds(0.5f);
+            GameInstance.UINavigation.TransitionAnimationGame();
+            yield return new WaitForSeconds(0.6f);
             SceneManager.LoadScene(1);
         }
     }

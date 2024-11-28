@@ -146,7 +146,7 @@ public class UnoGameManager : MonoBehaviour
         }
         else
         {
-            textButton.text = "Menu";
+            textButton.text = turn == 0 ? "Menu" : "Retry";
         }
 
         IsWin = turn == 0;

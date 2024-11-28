@@ -9,6 +9,8 @@ namespace UserInterface
     {
         [SerializeField] private TMP_Text _loadingText;
         [SerializeField] private bool _isTest = false;
+        private bool _isFirst = true;
+        
         
         public void Init()
         {
@@ -20,8 +22,9 @@ namespace UserInterface
                 PlayerPrefs.Save();
                 GameInstance.UINavigation.OpenGameMenu(true);
             }
-            else
+            else if(_isFirst)
             {
+                _isFirst = false;
                 StartCoroutine(AnimatePercentage());
             }
         }

@@ -15,7 +15,6 @@ namespace Services
 
         [SerializeField] private Transform _fieldTransformGame;
         [SerializeField] private Transform _fieldTransformMenu;
-        [SerializeField] private Material _collisionMat;
         
         private void AddChildTransformsToBackgroundGameParticleSystems()
         {
